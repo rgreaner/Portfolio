@@ -1,0 +1,51 @@
+#intro {
+    padding: 15px;
+    margin-top: 70px;
+    background-color:#EBDDE2;
+    border-radius: 15px;
+    font-size: 1em;
+    line-height: 1.5rem;
+    font-family: 'Questrial', sans-serif;
+    padding-bottom: 60px;
+}
+
+#topTitle {
+    color: black;
+    text-align: left;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+}
+
+#title {
+    border-bottom: solid 1px;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+#aboutPage {
+    background-image: url("../images/black_thread.png");
+    height: 100vh;
+    /* width: 100vw; */
+    padding-right:0px;
+    margin-right: 0;
+    overflow: hidden;
+}   
+
+#aboutPic {
+    height: 150px;
+    float:left;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#github {
+    width: 90px;
+    padding-left:100px;
+    padding-top: 100px;
+}
+
+#linked {
+    width: 80px;
+    padding-top: 30px;
+    padding-left: 103px;
+}

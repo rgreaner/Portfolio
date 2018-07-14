@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { withRouter } from "react-router-dom";
 
 class Resume extends Component {
     render () {
@@ -10,4 +11,4 @@ class Resume extends Component {
     }
 }
 
-export default Resume;
+export default withRouter (Resume);
