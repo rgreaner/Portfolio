@@ -1,0 +1,30 @@
+#projectsMain {
+    background-image:url("../images/black_thread.png");
+    height: 100vh;
+    overflow: hidden;
+}
+
+#plantyPlant {
+    width:90%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#plantPic {
+    width: 100%;
+    border-bottom: solid teal 2px
+}
+
+#informationTime {
+    text-align: left;
+}
+
+/* ----------------------------Icons----------------------- */
+#favIt {
+    width:50px
+}
+
+#giddyGit {
+    width: 60px;
+    padding-left:30px;
+}

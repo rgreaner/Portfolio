@@ -33,13 +33,18 @@ class About extends Component {
                 <br />
                 <br />
                 
+                For more information please e-mail me at rgreaner8@gmail.com or message me on LinkedIn!
 
                 </p>
                 </Grid>
                 <Grid item md={2}>
-                <img src={require("../images/github.png")} id="github" alt="Github"/>
+                <div id="socials">
+                <a target="_blank" href="http://github.com/rgreaner/"><img src={require("../images/github.png")} id="github" alt="Github"/></a>
                 <br />
-                <img src={require("../images/linkedin.png")} id="linked" alt="LinkedIn"/>
+                <a target="_blank" href="https://www.linkedin.com/in/rachel-greaner/"><img src={require("../images/linkedin.png")} id="linked" alt="LinkedIn"/></a>
+                <br />
+                <a target="_blank" href="mailto:rgreaner8@gmail.com"><img src={require("../images/gmail.png")} id="mailMe" alt="Email"/></a>
+                </div>
                 </Grid>
             </Grid>
             

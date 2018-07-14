@@ -56,8 +56,8 @@ class MenuAppBar extends React.Component {
             
               <MenuIcon />
             </IconButton>
-            <Typography variant="title" className={classes.flex}>
-            {String.fromCharCode(123)+ " "+"Rachel"+String.fromCharCode(183) + "Greaner"+" "+String.fromCharCode(125)}
+            <Typography variant="title" className={classes.flex}><a id ="myName" href="/">
+            {String.fromCharCode(123)+ " "+"Rachel"+String.fromCharCode(183) + "Greaner"+" "+String.fromCharCode(125)}</a>
           </Typography>
             <Button><a id="clickIt" href='/about'>About</a></Button>
             <Button><a id="clickIt" href='/projects'>Projects </a></Button>
