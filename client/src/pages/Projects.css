@@ -1,9 +1,16 @@
 #projectsMain {
     background-image:url("../images/black_thread.png");
-    height: 100vh;
-    overflow: hidden;
+    height: 250vh;
+    overflow-x: auto;
 }
 
+#informationTime {
+    text-align: left;
+}
+
+
+
+/* ---------------Plant App--------- */
 #plantyPlant {
     width:90%;
     text-align: center;
@@ -12,13 +19,87 @@
 
 #plantPic {
     width: 100%;
-    border-bottom: solid teal 2px
+    border-bottom: solid #874f63 2px
 }
 
-#informationTime {
-    text-align: left;
+
+
+/* ----------------------Radical Kanji------------------------ */
+#kanjiPic {
+    width: 50%;
 }
 
+#kanji {
+    width:90%;
+    text-align: center;
+    margin-top:30px;
+}
+
+#fixIt {
+    margin-top: 10px;
+    border-bottom: solid #874f63 2px;
+}
+
+
+
+/* ----------------------Emerald------------------------ */
+#gemPic {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+#emerald {
+    width:90%;
+    text-align: center;
+    margin-top:30px;
+}
+
+
+
+/* ----------------------Liri------------------------ */
+#liriPic {
+    margin-left:0;
+    padding-left:0;
+    padding-right:10px;
+    padding-bottom: 10px;
+    padding-top:20px;
+    width: 100%;
+    margin-bottom: 30px
+}
+
+#liri {
+    width:90%;
+    text-align: center;
+    margin-top:30px;
+}
+
+#liriFix {
+    margin-top: 10px;
+    border-bottom: solid #874f63 2px;
+}
+
+/* ----------------------Bamazon------------------------ */
+#bamazonPic {
+    margin-left:0;
+    padding-left:0;
+    padding-right:10px;
+    padding-bottom: 10px;
+    padding-top:20px;
+    width: 100%;
+    margin-bottom: 30px
+}
+
+#bamazon {
+    width:90%;
+    text-align: center;
+    margin-top:30px;
+    padding-left: 50px;
+}
+
+#bamazonFix {
+    margin-top: 10px;
+    border-bottom: solid #874f63 2px;
+}
 /* ----------------------------Icons----------------------- */
 #favIt {
     width:50px
@@ -27,4 +108,14 @@
 #giddyGit {
     width: 60px;
     padding-left:30px;
+}
+
+#giddyGit2 {
+    width: 60px; 
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#giddyGit3 {
+    width: 60px;
 }
