@@ -1,6 +1,25 @@
 {
   "dependencies": {
     "react": "^16.4.1",
-    "react-dom": "^16.4.1"
-  }
+    "react-dom": "^16.4.1",
+    "serve": "^9.2.0"
+  },
+  "name": "portfolio",
+  "description": "Portfolio created with React ",
+  "version": "1.0.0",
+  "main": "index.html",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgreaner/Portfolio.git"
+  },
+  "author": "Rachel Greaner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rgreaner/Portfolio/issues"
+  },
+  "homepage": "https://github.com/rgreaner/Portfolio#readme"
 }
