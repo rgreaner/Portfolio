@@ -22,49 +22,36 @@ class Projects extends Component {
                                     <p id="informationTime" >A full-stack project utilizing React, MySQL, and JavaScript to effectively track a user's indoor and outdoor plants.
                                         <br />
                                         <br />
-                                        <a target="_blank" href="https://plant-tracker-app.herokuapp.com"> <img id="favIt" src={require("../images/heart-solid.svg")} /> </a>
+                                        <a target="_blank" href="https://plant-tracker-app.herokuapp.com"> <img id="favIt" src={require("../images/home.svg")} /> </a>
                                         <a target="_blank" href="https://github.com/casmith205/Plant-Tracker"><img id="giddyGit" src={require("../images/github.png")} /> </a>
                                     </p>
                                 </CardContent>
                             </Card>
                         </div>
                     </Grid>
-                    <Grid item md={3}>
-                        <div id="kanji">
-                            <Card>
-                                <CardContent>
-                                    <div id="fixIt"><img id="kanjiPic" src={require("../images/kanjiExamp.png")} /></div>
-                                    <h1 id="kanjiTitle">Radical Kanji</h1>
-                                    <p id="informationTime" >A Japanese, kanji learning app that follows the Heisig method of memorization.
-                                        <br />
-                                        <br />
-                                        <a target="_blank" href="https://github.com/rgreaner/RadicalKanji"><img id="giddyGit2" src={require("../images/github.png")} /> </a>
-                                    </p>
-                                </CardContent>
-                            </Card>
-                        </div>
-                    </Grid>
-                </Grid>
-                {/* -----------------------------------------------Row 2----------------------------- */}
-                <Grid container spacing={8}>
-                <Grid item md={3} />
-                
-                    <Grid item md={3}>
+
+
+                  <Grid item md={3}>
                         <div id="emerald">
                             <Card>
                                 <CardContent>
                                 <div id="fixIt"><img id="gemPic" src={require("../images/emerald.png")} /> </div>
-                                    <h1>Emerald: Finance App</h1>
+                                    <h1>Emerald</h1>
                                     <p id="informationTime" >Emerald is a finance budgeting app that uses multiple models within the SQL database.
                                         <br />
                                         <br />
-                                        <a target="_blank" href="https://fathomless-shore-99524.herokuapp.com/"> <img id="favIt" src={require("../images/heart-solid.svg")} /> </a>
+                                        <br />
+                                        <a target="_blank" href="https://fathomless-shore-99524.herokuapp.com/"> <img id="favIt" src={require("../images/home.svg")} /> </a>
                                         <a target="_blank" href="https://github.com/mjplein/finance_app"><img id="giddyGit" src={require("../images/github.png")} /> </a>
                                     </p>
                                 </CardContent>
                             </Card>
                         </div>
                     </Grid>
+                {/* -----------------------------------------------Row 2----------------------------- */}
+                <Grid container spacing={8}>
+                <Grid item md={3} />
+                
                     <Grid item md={3}>
                         <div id="liri">
                             <Card>
@@ -74,14 +61,13 @@ class Projects extends Component {
                                     <p id="informationTime" >A command line node app that logs information from Twitter, Spotify, and OMDB.
                                         <br />
                                         <br />
-                                        <a target="_blank" href="https://github.com/rgreaner/LiriApp"><img id="giddyGit3" src={require("../images/github.png")} /> </a>
+                                        <a target="_blank" href="https://drive.google.com/open?id=1BMOFMA6gujKxBQVbC4n96HUNZrWzLSSw"> <img id="favIt" src={require("../images/home.svg")} /> </a>
+                                        <a target="_blank" href="https://github.com/rgreaner/LiriApp"><img id="giddyGit" src={require("../images/github.png")} /> </a>
                                     </p>
                                 </CardContent>
                             </Card>
                         </div>
                     </Grid>
-                    <Grid container spacing={8}>
-                    <Grid item md={4} />
                     <Grid item md={3}>
                         <div id="bamazon">
                             <Card>
@@ -91,7 +77,8 @@ class Projects extends Component {
                                     <p id="informationTime" >A command line app that prompts users to input information and subsequently updates the database based on user purchases and interactions.
                                         <br />
                                         <br />
-                                        <a target="_blank" href="https://github.com/rgreaner/Bamazon "><img id="giddyGit3" src={require("../images/github.png")} /> </a>
+                                        <a target="_blank" href="https://drive.google.com/open?id=1cA_Y-7gMq48Yc1B_DJ9LUA-dubE3lNAJ"> <img id="favIt" src={require("../images/home.svg")} /> </a>
+                                        <a target="_blank" href="https://github.com/rgreaner/Bamazon "><img id="giddyGit" src={require("../images/github.png")} /> </a>
                                     </p>
                                 </CardContent>
                             </Card>
