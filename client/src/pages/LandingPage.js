@@ -23,7 +23,7 @@ class Landing extends Component {
                     <div id ="basicIntro">
                         <h1 id="fullName">Rachel Greaner</h1>
                         <h2 id="myTitle">Full Stack Web Developer</h2>
-                        <p>Full Stack Web Developer with an emphasis in Back End technologies. Passionate about learning new technologies and problem-solving. Adept at API routing with Express, composing applications with ReactJS, and database handling with SQL/My SQL databases.</p>
+                        <p>Full Stack Web Developer with a keen interest in front end technologies and frameworks. Passionate about learning new technologies and problem-solving. Adept at API routing with Express, composing applications with ReactJS, and database handling with SQL/My SQL databases.</p>
 
                         <h1><a href="./about" id="elipse">{String.fromCharCode(8230)}</a></h1>
                     </div>
