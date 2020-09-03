@@ -4,7 +4,7 @@
     "react-dom": "^16.4.1",
     "react-scripts": "^1.1.4",
     "scripts": "^0.1.0",
-    "serve": "^9.2.0"
+    "serve": "^10.1.2"
   },
   "name": "portfolio",
   "description": "Portfolio created with React ",
